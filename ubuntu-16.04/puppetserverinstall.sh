@@ -8,3 +8,7 @@ sudo apt update
 
 # install puppetserver
 sudo apt-get install -y puppetserver
+
+# create symlinks into /usr/bin
+sudo ln -s /opt/puppetlabs/bin/puppet /usr/bin/puppet
+sudo ln -s /opt/puppetlabs/bin/puppetserver /usr/bin/puppetserver
